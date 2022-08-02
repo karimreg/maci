@@ -1,0 +1,14 @@
+#container {
+    display: flex;                  /* establish flex container */
+    flex-direction: row;            /* default value; can be omitted */
+    flex-wrap: nowrap;              /* default value; can be omitted */
+    justify-content:center; /* switched from default (flex-start, see below) */
+    background-color: lightyellow;
+  }
+  #container > div {
+    width: 100px auto;
+    height: 100px auto;
+    border: 2px dashed red;
+    align-items: center;
+
+  }
